@@ -1,0 +1,10 @@
+Algoritmo ejercicio14
+	definir Num,numeroentero Como Entero;
+	Mientras Num = trunc(num/10) Hacer
+		leer num;
+		si num MOD 10  Entonces
+			numeroentero = numeroetero + num; 
+		FinSi
+	FinMientras
+	escribir ""
+FinAlgoritmo
